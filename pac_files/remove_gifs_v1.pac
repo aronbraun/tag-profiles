@@ -2,6 +2,10 @@ function FindProxyForURL(url, host) {
 
 	// Gif Block
 
+	if(dnsDomainIs(host, "smoot.apple.com")) return "PROXY 0.0.0.0:3421";
+	if(dnsDomainIs(host, "aaplimg.com")) return "PROXY 0.0.0.0:3421";
+	if(dnsDomainIs(host, "palmettostatearmory.com")) return "PROXY 0.0.0.0:3421";
+	if(dnsDomainIs(host, "cheaperthandirt.com")) return "PROXY 0.0.0.0:3421";
 	if(dnsDomainIs(host, "giphy.com")) return "PROXY 0.0.0.0:3421";
 	if(dnsDomainIs(host, "js.media-lab.ai")) return "PROXY 0.0.0.0:3421";
 	if(dnsDomainIs(host, "api.giphy.com")) return "PROXY 0.0.0.0:3421";
@@ -33,5 +37,5 @@ function FindProxyForURL(url, host) {
 	if(shExpMatch(url, "*giphy*")) return "PROXY 0.0.0.0:3421";
 	if(shExpMatch(url, "*tenor.com*")) return "PROXY 0.0.0.0:3421";
 
-	if(true) return "DIRECT;";
+	return "DIRECT;";
 }
