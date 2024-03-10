@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasRemovalPasscode</key>
+	<true/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.profileRemovalPassword.B80ADE86-349A-444C-B464-A51BA92D830C</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>B80ADE86-349A-444C-B464-A51BA92D830C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>4680347893498547</string>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.proxy.http.global.84BDFFDC-A390-4E3A-AF32-AC97A081FC59</string>
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+			<key>PayloadUUID</key>
+			<string>84BDFFDC-A390-4E3A-AF32-AC97A081FC59</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyPACURL</key>
+			<string>https://raw.githubusercontent.com/aronbraun/tag-profiles/main/pac_files/remove_gifs_v1.pac</string>
+			<key>ProxyType</key>
+			<string>Auto</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Blocks gifs</string>
+	<key>PayloadDisplayName</key>
+	<string>Tag Rockland Block Gifs</string>
+	<key>PayloadIdentifier</key>
+	<string>Arons-MacBook-Pro.4A253C06-D08C-43BA-AE38-13E1C8C0BD4B</string>
+	<key>PayloadOrganization</key>
+	<string>Tag Rockland</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4A253C06-D08C-43BA-AE38-13E1C8C0BD4B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
